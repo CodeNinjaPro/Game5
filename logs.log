@@ -1,0 +1,151 @@
+2022-04-24 17:32:30,832:INFO:Initializing load_model()
+2022-04-24 17:32:30,832:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:30,845:INFO:Initializing load_model()
+2022-04-24 17:32:30,846:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:30,854:INFO:Initializing load_model()
+2022-04-24 17:32:30,854:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:30,861:INFO:Initializing load_model()
+2022-04-24 17:32:30,862:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:30,887:INFO:Initializing load_model()
+2022-04-24 17:32:30,887:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:30,907:INFO:Initializing load_model()
+2022-04-24 17:32:30,907:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:41,602:INFO:Initializing load_model()
+2022-04-24 17:32:41,602:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:41,611:INFO:Initializing load_model()
+2022-04-24 17:32:41,611:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:41,619:INFO:Initializing load_model()
+2022-04-24 17:32:41,619:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:41,628:INFO:Initializing load_model()
+2022-04-24 17:32:41,628:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:41,652:INFO:Initializing load_model()
+2022-04-24 17:32:41,652:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:32:41,671:INFO:Initializing load_model()
+2022-04-24 17:32:41,671:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:34:21,243:INFO:Initializing predict_model()
+2022-04-24 17:34:21,243:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['Question'],
+                                      ml_usecase='classification',
+                                      target='Category')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replace...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Category')),
+                ('fix_perfect', Remove_100(target='Category')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(max_iter=1000, random_state=548)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-04-24 17:34:21,244:INFO:Checking exceptions
+2022-04-24 17:34:21,244:INFO:Preloading libraries
+2022-04-24 17:50:36,020:INFO:Initializing load_model()
+2022-04-24 17:50:36,020:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:50:36,029:INFO:Initializing load_model()
+2022-04-24 17:50:36,029:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:50:36,038:INFO:Initializing load_model()
+2022-04-24 17:50:36,038:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:50:36,046:INFO:Initializing load_model()
+2022-04-24 17:50:36,046:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:50:36,070:INFO:Initializing load_model()
+2022-04-24 17:50:36,070:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:50:36,088:INFO:Initializing load_model()
+2022-04-24 17:50:36,088:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:51:05,650:INFO:Initializing load_model()
+2022-04-24 17:51:05,650:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:51:05,658:INFO:Initializing load_model()
+2022-04-24 17:51:05,658:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:51:05,665:INFO:Initializing load_model()
+2022-04-24 17:51:05,665:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:51:05,671:INFO:Initializing load_model()
+2022-04-24 17:51:05,672:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:51:05,694:INFO:Initializing load_model()
+2022-04-24 17:51:05,694:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:51:05,711:INFO:Initializing load_model()
+2022-04-24 17:51:05,711:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,679:INFO:Initializing load_model()
+2022-04-24 17:54:04,679:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,686:INFO:Initializing load_model()
+2022-04-24 17:54:04,686:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,695:INFO:Initializing load_model()
+2022-04-24 17:54:04,695:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,702:INFO:Initializing load_model()
+2022-04-24 17:54:04,702:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,724:INFO:Initializing load_model()
+2022-04-24 17:54:04,724:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,741:INFO:Initializing load_model()
+2022-04-24 17:54:04,741:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,751:INFO:Initializing load_model()
+2022-04-24 17:54:04,751:INFO:load_model(model_name=Classification/answer_train_models/Extra_Trees_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,810:INFO:Initializing load_model()
+2022-04-24 17:54:04,811:INFO:load_model(model_name=Classification/answer_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:04,876:INFO:Initializing load_model()
+2022-04-24 17:54:04,876:INFO:load_model(model_name=Classification/answer_train_models/Random_Forest_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,198:INFO:Initializing load_model()
+2022-04-24 17:54:59,199:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,204:INFO:Initializing load_model()
+2022-04-24 17:54:59,204:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,208:INFO:Initializing load_model()
+2022-04-24 17:54:59,208:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,213:INFO:Initializing load_model()
+2022-04-24 17:54:59,213:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,231:INFO:Initializing load_model()
+2022-04-24 17:54:59,231:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,246:INFO:Initializing load_model()
+2022-04-24 17:54:59,246:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,251:INFO:Initializing load_model()
+2022-04-24 17:54:59,252:INFO:load_model(model_name=Classification/answer_train_models/Extra_Trees_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,284:INFO:Initializing load_model()
+2022-04-24 17:54:59,284:INFO:load_model(model_name=Classification/answer_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:54:59,334:INFO:Initializing load_model()
+2022-04-24 17:54:59,335:INFO:load_model(model_name=Classification/answer_train_models/Random_Forest_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,168:INFO:Initializing load_model()
+2022-04-24 17:55:07,168:INFO:load_model(model_name=Classification/trained_models/Decision_Tree_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,173:INFO:Initializing load_model()
+2022-04-24 17:55:07,173:INFO:load_model(model_name=Classification/trained_models/Ridge_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,178:INFO:Initializing load_model()
+2022-04-24 17:55:07,178:INFO:load_model(model_name=Classification/trained_models/SVM_Linear_Kernel, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,183:INFO:Initializing load_model()
+2022-04-24 17:55:07,183:INFO:load_model(model_name=Classification/new_train_models/Ada_Boost_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,201:INFO:Initializing load_model()
+2022-04-24 17:55:07,201:INFO:load_model(model_name=Classification/new_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,215:INFO:Initializing load_model()
+2022-04-24 17:55:07,216:INFO:load_model(model_name=Classification/new_train_models/Logistic_Regression, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,222:INFO:Initializing load_model()
+2022-04-24 17:55:07,222:INFO:load_model(model_name=Classification/answer_train_models/Extra_Trees_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,254:INFO:Initializing load_model()
+2022-04-24 17:55:07,254:INFO:load_model(model_name=Classification/answer_train_models/Gradient_Boosting_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:55:07,307:INFO:Initializing load_model()
+2022-04-24 17:55:07,307:INFO:load_model(model_name=Classification/answer_train_models/Random_Forest_Classifier, platform=None, authentication=None, verbose=True)
+2022-04-24 17:56:24,008:INFO:Initializing predict_model()
+2022-04-24 17:56:24,008:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cat_01', 'cat_02',
+                                                            'cat_03'],
+                                      ml_usecase='classification',
+                                      target='result')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_Te...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='result')),
+                ('fix_perfect', Remove_100(target='result')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesClassifier(n_jobs=-1, random_state=8370)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-04-24 17:56:24,008:INFO:Checking exceptions
+2022-04-24 17:56:24,008:INFO:Preloading libraries
